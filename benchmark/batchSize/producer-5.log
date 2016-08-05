@@ -1,0 +1,24 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/core/build/dependant-libs-2.10.6/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/tools/build/dependant-libs-2.10.6/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/api/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/runtime/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/file/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/json/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[2016-05-25 11:18:24,458] WARN Error while fetching metadata with correlation id 0 : {ttt=LEADER_NOT_AVAILABLE} (org.apache.kafka.clients.NetworkClient)
+[2016-05-25 11:18:24,579] WARN Error while fetching metadata with correlation id 1 : {ttt=LEADER_NOT_AVAILABLE} (org.apache.kafka.clients.NetworkClient)
+1377906 records sent, 275581.2 records/sec (26.28 MB/sec), 393.0 ms avg latency, 629.0 max latency.
+2577064 records sent, 515309.7 records/sec (49.14 MB/sec), 19.2 ms avg latency, 239.0 max latency.
+3234161 records sent, 646832.2 records/sec (61.69 MB/sec), 7.1 ms avg latency, 28.0 max latency.
+3176831 records sent, 635366.2 records/sec (60.59 MB/sec), 7.5 ms avg latency, 29.0 max latency.
+4170350 records sent, 834070.0 records/sec (79.54 MB/sec), 5.0 ms avg latency, 96.0 max latency.
+4426733 records sent, 885346.6 records/sec (84.43 MB/sec), 3.9 ms avg latency, 85.0 max latency.
+4494364 records sent, 895648.5 records/sec (85.42 MB/sec), 3.5 ms avg latency, 26.0 max latency.
+4516210 records sent, 903242.0 records/sec (86.14 MB/sec), 3.6 ms avg latency, 27.0 max latency.
+4257351 records sent, 851470.2 records/sec (81.20 MB/sec), 4.2 ms avg latency, 47.0 max latency.
+4434549 records sent, 886909.8 records/sec (84.58 MB/sec), 4.5 ms avg latency, 19.0 max latency.
+4488927 records sent, 897785.4 records/sec (85.62 MB/sec), 3.8 ms avg latency, 18.0 max latency.
+4423553 records sent, 884710.6 records/sec (84.37 MB/sec), 4.1 ms avg latency, 123.0 max latency.
+50000000 records sent, 770796.078190 records/sec (73.51 MB/sec), 15.95 ms avg latency, 629.00 ms max latency, 4 ms 50th, 12 ms 95th, 490 ms 99th, 607 ms 99.9th.

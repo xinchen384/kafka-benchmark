@@ -1,0 +1,17 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/core/build/dependant-libs-2.10.6/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/tools/build/dependant-libs-2.10.6/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/api/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/runtime/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/file/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/json/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Error while executing topic command : replication factor: 1 larger than available brokers: 0
+[2016-07-07 15:49:47,486] ERROR kafka.admin.AdminOperationException: replication factor: 1 larger than available brokers: 0
+	at kafka.admin.AdminUtils$.assignReplicasToBrokers(AdminUtils.scala:117)
+	at kafka.admin.AdminUtils$.createTopic(AdminUtils.scala:403)
+	at kafka.admin.TopicCommand$.createTopic(TopicCommand.scala:110)
+	at kafka.admin.TopicCommand$.main(TopicCommand.scala:61)
+	at kafka.admin.TopicCommand.main(TopicCommand.scala)
+ (kafka.admin.TopicCommand$)

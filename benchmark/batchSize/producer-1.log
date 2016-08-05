@@ -1,0 +1,45 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/core/build/dependant-libs-2.10.6/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/tools/build/dependant-libs-2.10.6/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/api/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/runtime/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/file/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/homes/hny9/chenxin/kafka/kafka-0.10.0.0-src/connect/json/build/dependant-libs/slf4j-log4j12-1.7.21.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+[2016-05-25 11:10:31,026] WARN Error while fetching metadata with correlation id 0 : {ttt=LEADER_NOT_AVAILABLE} (org.apache.kafka.clients.NetworkClient)
+[2016-05-25 11:10:31,149] WARN Error while fetching metadata with correlation id 1 : {ttt=LEADER_NOT_AVAILABLE} (org.apache.kafka.clients.NetworkClient)
+254539 records sent, 50907.8 records/sec (4.85 MB/sec), 2098.1 ms avg latency, 3366.0 max latency.
+812947 records sent, 162589.4 records/sec (15.51 MB/sec), 3794.8 ms avg latency, 4841.0 max latency.
+1557147 records sent, 310745.8 records/sec (29.64 MB/sec), 1645.5 ms avg latency, 2369.0 max latency.
+1476688 records sent, 294924.7 records/sec (28.13 MB/sec), 1592.1 ms avg latency, 1772.0 max latency.
+1410808 records sent, 281879.7 records/sec (26.88 MB/sec), 1683.9 ms avg latency, 1799.0 max latency.
+1482727 records sent, 296545.4 records/sec (28.28 MB/sec), 1679.3 ms avg latency, 1847.0 max latency.
+1408673 records sent, 281734.6 records/sec (26.87 MB/sec), 1706.3 ms avg latency, 1860.0 max latency.
+1404586 records sent, 280917.2 records/sec (26.79 MB/sec), 1789.8 ms avg latency, 2028.0 max latency.
+1484923 records sent, 296569.4 records/sec (28.28 MB/sec), 1655.9 ms avg latency, 1776.0 max latency.
+1426546 records sent, 285309.2 records/sec (27.21 MB/sec), 1706.8 ms avg latency, 1814.0 max latency.
+1575325 records sent, 315065.0 records/sec (30.05 MB/sec), 1313.3 ms avg latency, 1728.0 max latency.
+1561661 records sent, 312332.2 records/sec (29.79 MB/sec), 1038.7 ms avg latency, 1254.0 max latency.
+1519144 records sent, 297521.3 records/sec (28.37 MB/sec), 328.0 ms avg latency, 664.0 max latency.
+1629249 records sent, 325849.8 records/sec (31.08 MB/sec), 615.0 ms avg latency, 892.0 max latency.
+1398791 records sent, 279758.2 records/sec (26.68 MB/sec), 1171.0 ms avg latency, 1365.0 max latency.
+1491328 records sent, 298265.6 records/sec (28.44 MB/sec), 907.6 ms avg latency, 1076.0 max latency.
+1471747 records sent, 294349.4 records/sec (28.07 MB/sec), 880.8 ms avg latency, 1063.0 max latency.
+1452227 records sent, 290445.4 records/sec (27.70 MB/sec), 731.2 ms avg latency, 901.0 max latency.
+1681587 records sent, 336317.4 records/sec (32.07 MB/sec), 306.7 ms avg latency, 647.0 max latency.
+1541165 records sent, 308233.0 records/sec (29.40 MB/sec), 211.4 ms avg latency, 498.0 max latency.
+1647999 records sent, 329599.8 records/sec (31.43 MB/sec), 143.4 ms avg latency, 479.0 max latency.
+1730712 records sent, 346142.4 records/sec (33.01 MB/sec), 2.0 ms avg latency, 15.0 max latency.
+1818909 records sent, 363781.8 records/sec (34.69 MB/sec), 121.8 ms avg latency, 322.0 max latency.
+1740167 records sent, 348033.4 records/sec (33.19 MB/sec), 13.8 ms avg latency, 105.0 max latency.
+1581366 records sent, 316273.2 records/sec (30.16 MB/sec), 172.7 ms avg latency, 413.0 max latency.
+1563200 records sent, 312640.0 records/sec (29.82 MB/sec), 153.9 ms avg latency, 351.0 max latency.
+1524732 records sent, 304946.4 records/sec (29.08 MB/sec), 5.6 ms avg latency, 55.0 max latency.
+1782922 records sent, 356584.4 records/sec (34.01 MB/sec), 15.4 ms avg latency, 98.0 max latency.
+1693984 records sent, 338796.8 records/sec (32.31 MB/sec), 14.3 ms avg latency, 83.0 max latency.
+1871114 records sent, 374073.2 records/sec (35.67 MB/sec), 94.3 ms avg latency, 266.0 max latency.
+1552145 records sent, 310429.0 records/sec (29.60 MB/sec), 299.4 ms avg latency, 565.0 max latency.
+1603385 records sent, 320612.9 records/sec (30.58 MB/sec), 553.1 ms avg latency, 659.0 max latency.
+1432097 records sent, 286419.4 records/sec (27.32 MB/sec), 651.2 ms avg latency, 907.0 max latency.
+50000000 records sent, 300334.572714 records/sec (28.64 MB/sec), 766.56 ms avg latency, 4841.00 ms max latency, 578 ms 50th, 1786 ms 95th, 3654 ms 99th, 4685 ms 99.9th.
